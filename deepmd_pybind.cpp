@@ -18,3 +18,4 @@ PYBIND11_MODULE(deepmd_pybind, m) {
             self.compute(e, f, v, coord, atype, cell);
             return py::make_tuple(e, f, v);
         });
+}
